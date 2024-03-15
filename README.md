@@ -1,4 +1,4 @@
-## Traduttore Web con HTML, CSS e JavaScript
+# Traduttore Web con HTML, CSS e JavaScript
 
 Questo progetto è stato realizzato durante la Coding Week di Boolean ed è un semplice traduttore web che utilizza HTML, CSS e JavaScript per fornire un'interfaccia utente intuitiva per tradurre testi. Le traduzioni sono supportate dall'API MyMemory di Translated.net, utilizzando le Fetch API per le richieste HTTP. Inoltre, integriamo un servizio per generare parole casuali utilizzando l'API Random Word. I preferiti vengono salvati utilizzando il localStorage del browser.
 
