@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Traduttore</title>
+        <link rel="icon" href="images/favicon.png" type="image/x-icon">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <header class="panel">
+                <h1>Traduttore</h1>
+                <img src="images/logo.png" alt="">
+            </header>
+
+            <main>
+                <section class="panel translation">
+                    <div class="translation-flag"></div>
+                    <div class="translation-result">
+                        <p class="translation-text">Traduzione</p>
+                    </div>
+                    <button class="favorite-button" title="Favorite"><img src="images/star.png" alt=""></button>
+                </section>
+
+                <section class="panel controls">
+                    <div style="display: flex; width: 100%; gap: 20px;">
+                        <input type="text" class="text-input" placeholder="Inserisci il testo da tradurre">
+                        <button class="random-button" title="Ricevi parola random"><img src="images/random.png" alt=""></button>
+                    </div>
+                    <div>
+                        <button class="lang-button" data-lang="en" data-flag="images/english.png" title="Traduci in Inglese"><img src="images/english.png" alt=""></button>
+                        <button class="lang-button" data-lang="fr" data-flag="images/france.png" title="Traduci in Francese"><img src="images/france.png" alt=""></button>
+                        <button class="lang-button" data-lang="es" data-flag="images/spain.png" title="Traduci in Spagnolo"><img src="images/spain.png" alt=""></button>
+                        <button class="reset-button" title="Reset"><img src="images/reset.png" alt=""></button>
+                    </div>
+                    
+                </section>
+
+                <section>
+                    <h3>Parole da non dimenticare</h3>
+                    <div class="favorites-container">
+                    </div>
+                  </section>
+            </main>
+        </div>
+        
+        <script src="script.js" async defer></script>
+    </body>
+</html>
